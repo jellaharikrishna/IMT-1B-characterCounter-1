@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-container {
+    width: 90vw;
+    min-height: 500px;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .part-one {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ffc533;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    color: #334155;
+    font-family: roboto;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffbf1f;
+  }
+
+  .image {
+    margin: 30px;
+  }
+
+  .charactersList-container {
+    padding: 20px;
+    padding-top: 0;
+    margin: 10px;
+  }
+
+  .part-two {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0f172a;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .character-heading {
+    font-family: roboto;
+    text-align: center;
+    color: #ffc533;
+  }
+
+  .input-container {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .input-text {
+    font-family: roboto;
+    height: 40px;
+    width: 80%;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+
+  .add-btn {
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    color: #334155;
+    font-family: roboto;
+    font-weight: bold;
+    background-color: #ffbf1f;
+    cursor: pointer;
+  }
+}
